@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to OSINTMaster</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Header -->
+    <header class="bg-gray-800 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-3xl font-bold text-yellow-400">OSINTMaster</h1>
+                </div>
+                <div class="hidden md:flex space-x-4">
+                    <a href="/" class="text-lg text-gray-300 hover:text-white">Home</a>
+                    <a href="/scan" class="text-lg text-gray-300 hover:text-white">Scan IP</a>
+                    <a href="/about" class="text-lg text-gray-300 hover:text-white">About</a>
+                    <a href="/contact" class="text-lg text-gray-300 hover:text-white">Contact</a>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" class="text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-400" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gray-900 py-24 px-6 sm:px-12 lg:px-16">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative container mx-auto text-center text-white">
+            <h2 class="text-4xl font-extrabold text-yellow-400 mb-4">Welcome to OSINTMaster</h2>
+            <p class="text-lg sm:text-xl">Your ultimate tool for gathering open-source intelligence (OSINT) from the web.</p>
+            <div class="mt-8">
+                <a href="/scan" class="inline-block bg-yellow-400 text-gray-900 py-2 px-6 rounded-lg text-lg font-medium hover:bg-yellow-500 transition duration-300">Start Scanning</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="py-16 px-6 sm:px-12 bg-gray-800">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-yellow-400 mb-8">What is OSINT?</h2>
+            <p class="text-lg text-gray-300 mb-4">OSINT (Open-Source Intelligence) refers to the process of gathering intelligence from publicly available sources. With OSINTMaster, you can easily scan IP addresses and gain valuable insights into security vulnerabilities and other important details.</p>
+            <div class="mt-8">
+                <a href="/about" class="text-lg text-yellow-400 hover:text-yellow-500">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-12">
+        <div class="container mx-auto text-center text-gray-400">
+            <p>&copy; 2025 OSINTMaster. All rights reserved.</p>
+            <div class="flex justify-center mt-4 space-x-6">
+                <a href="/about" class="text-lg text-gray-400 hover:text-white">About</a>
+                <a href="/contact" class="text-lg text-gray-400 hover:text-white">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
